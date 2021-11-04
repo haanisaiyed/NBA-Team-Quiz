@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <script src="index.js"></script>
+    <title>NBA Teams Quiz</title>
+  </head>
+  <body>
+    <div>
+      <h1>NBA Teams Quiz</h1>
+      <h4><em>Can you match the logo to the name?</em></h4>
+      <hr />
+      <img id="image" />
+      <div id="inside">
+        <form>
+          <input type="radio" id="answer1" name="team" />
+          <label for="answer1" id="rad1"></label>
+          <input type="radio" id="answer2" name="team" />
+          <label for="answer2" id="rad2"></label>
+          <input type="radio" id="answer3" name="team" />
+          <label for="answer3" id="rad3"></label>
+          <input type="radio" id="answer4" name="team" />
+          <label for="answer4" id="rad4"></label>
+        </form>
+        <br />
+        <form action="#">
+          <input id="submit" type="button" value="Submit" />
+          <input id="nextQues" type="button" value="Next" />
+        </form>
+        <div id="rightanswer"><strong>Correct Answer: </strong></div>
+        <div id="quesCou"><p>Question: 0</p></div>
+        <div id="numRight"><p>Numbers Correct: 0</p></div>
+      </div>
+    </div>
+  </body>
+</html>
